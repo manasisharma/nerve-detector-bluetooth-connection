@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-d4d1504ef3c26f5dd72b85efca4907af73b4b6ee.jar" />
+    </item>
+    <item
+        jar="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/pre-dexed/debug/classes-7947ba697c08fd1c65378fcf03d2b2540bcea941.jar" />
+    </item>
+    <item
+        jar="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/pre-dexed/debug/classes-a7da8ee81a0cb5c32b526a0e69632b901b404062.jar" />
+    </item>
+    <item
+        jar="/Users/suhas/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-19694365b0107219ac5da927ff969bf27cffac5a.jar" />
+    </item>
+    <item
+        jar="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/pre-dexed/debug/classes-edc68def02ee1a05310aeabd9ef09d4ae242cde4.jar" />
+    </item>
+    <item
+        jar="/Users/suhas/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/suhas/Desktop/NIM4.0/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-4869fdd63db31d64d9ee02487bde3df19da014c4.jar" />
+    </item>
+
+</items>

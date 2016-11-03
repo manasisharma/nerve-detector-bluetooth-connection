@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false" android:background="#FFFFFF"
+    style="@style/Base.TextAppearance.AppCompat.Subhead">
+
+
+    <ImageView
+        android:id="@+id/test_image"
+        android:src="@mipmap/ic_home_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FFFFFF"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/button8"
+        android:layout_gravity="bottom"
+
+
+        android:layout_marginBottom="80dp"
+        android:drawableRight="@mipmap/ic_get_started"
+        android:textColor="#005195"
+        android:background="#FFFFFF"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginRight="76dp"
+        android:layout_marginEnd="76dp"
+        android:layout_above="@+id/button9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Support"
+
+        android:id="@+id/button9"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+        android:elegantTextHeight="true"
+
+        android:textColor="#FFFFFF"
+        android:background="#005195"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu"
+        android:fontFamily="@string/abc_action_bar_home_description_format"
+        android:capitalize="none"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Let&apos;s Connect"
+        android:id="@+id/textView"
+        android:textColor="#005195"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp" />
+</RelativeLayout>

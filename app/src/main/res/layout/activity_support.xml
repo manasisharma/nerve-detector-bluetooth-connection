@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#005195"
+            android:elevation="4dp"/>
+
+        <!--Main content-->
+        <RelativeLayout
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:weightSum="1"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/call_icon"
+                android:text="Live Support"
+                android:id="@+id/button3"
+
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_above="@+id/button10"
+                android:layout_alignRight="@+id/button10"
+                android:layout_marginBottom="53dp" />
+
+
+
+            <Button
+                android:drawableLeft="@mipmap/call_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medtronic Representative"
+                android:id="@+id/button10"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawer_recyclerView"
+        android:layout_width="304dp"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:background="#FFFFFF"
+        android:layout_gravity="start"
+        />
+
+</android.support.v4.widget.DrawerLayout>
+
+
